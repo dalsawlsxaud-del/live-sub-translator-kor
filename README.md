@@ -1,9 +1,9 @@
 # Live Sub — 영어를 바로 해석해주는 실시간 자막
 
-컴퓨터에서 나오는 영어 소리(강의, 유튜브, DCC 툴 내 영상 등)를 실시간으로 인식해서
+컴퓨터에서 나오는 영어 소리를 실시간으로 인식해서
 화면에 한국어 자막으로 띄워주는 프로그램입니다.
 
-Boundless, Gnomon 같은 자막 없는 영어 강의를 들을 때,
+영어 강의를 들을 때,
 또는 언리얼 엔진 같은 DCC 툴을 켜놓고 강의를 같이 볼 때 쓰기 위해 만들었습니다.
 
 ## 특징
@@ -80,9 +80,8 @@ model = WhisperModel(MODEL_SIZE, device="cuda", compute_type="float16")
 # English
 
 ## What is this?
-Live Sub captures whatever audio your computer is playing (course videos, YouTube,
-audio inside DCC tools like Unreal Engine) and shows real-time Korean subtitles on screen —
-useful for English courses (Boundless, Gnomon, etc.) that don't ship with subtitles.
+Live Sub captures whatever audio your computer is playing and shows real-time Korean subtitles on screen —
+useful for English courses that don't ship with subtitles.
 
 ## Features
 - Works with **any site or player** — captures system audio directly, not tied to YouTube captions
